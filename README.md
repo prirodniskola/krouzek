@@ -34,6 +34,3 @@ vy tam sice nebudete mít napsané jáchy ale jinak to bude stejné.
 4. Až budete mít okno v tomto stavu tak ho zavřete a otevřete si "visual studio code". vlevo nahoře je nápis "file" po rozkliknutí v něm najděte nápis "open folder" a otevřete ho. objeví se vám okno s dokumenty a vy tam najdete složku "krouzek" otevřete jí a to je zatím vše.
 
 
-Pokud máte všechno nainstalované, připojte si toto repository:
-
-
