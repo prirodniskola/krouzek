@@ -4,6 +4,7 @@
         var kybl = $("#kybl");
         var libuse = $("#libuse");
         var brambora = $("#brambora");
+        var zavarenina = $ ( "#zavarenina");
         var sirka = window.innerWidth;
         var auticko=50;
         var krok=sirka/10;
@@ -19,6 +20,17 @@
             brambora.offset({ top: 300, left: pozice })
 
         })
+        var smer=10;
+
+        function posunvpravo (){
+            var poz = zavarenina.offset().left;
+            poz+=smer;
+            if(poz<0 || poz>sirka-50) smer=-smer;
+            zavarenina.offset({top:149,left:poz});
+            setTimeout(posunvpravo,10);
+        }
+        posunvpravo();
+
 
 
         //         $("#kybl").click(function(){ 
