@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.website.appname" 
+        versionCode = "1" 
+        version     = "1.0.0">
+
+    <name>Hra 007</name>
+
+    <description>
+        Naprogramováno na programátorském kroužku Přírodní školy.
+        Studenti se učí programovat a vytvářejí přitom počítačovou hru.
+    </description>
+
+    <author href="http://www.prirodniskola.cz" email="info@prirodniskola.cz">
+        Přírodní škola
+    </author>
+
+    <!-- The platforms to build for. Only build what you want to target! -->
+    <gap:platform name="ios" />
+	<gap:platform name="android" />
+	<gap:platform name="winphone" />
+	
+	<!-- Build preferences for each platform. Too many to list here, see online PhoneGap docs for more. -->
+	<preference name='phonegap-version' value='cli-6.5.0' /> <!-- Version of PhoneGap to use -->
+
+	<!-- Required to access external resources, like APIs and webpages. Wildcard (*) allows access to everything. -->
+	<access origin="*"/>
+</widget>
